@@ -529,7 +529,7 @@ html , body {
   margin-left: 10px;
 }
 .third{
-  margin-bottom: 60%;
+  margin-bottom: 10%;
 }
 
 .footer {
@@ -825,6 +825,19 @@ margin-left: 45px;
   width: 325px;
   margin-right: 20px;
 }
+.req1 {
+  color: rgb(155, 154, 159);
+  background: linear-gradient(to right, rgb(94, 206, 129), rgb(64, 186, 200));
+  height: 40px;
+  width: 40vw;
+  margin-left: 23vw;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
 .third {
   display: flex;
   flex-direction: column;
@@ -903,7 +916,7 @@ margin-left: 45px;
   }
 
   .footer {
-    height: 50vh;
+    height: 70vh;
     flex-direction: column;
     padding: 20px;
   }
@@ -937,18 +950,7 @@ margin-left: 45px;
 .logofoot svg{
   width: 300px;
 }
-.req1 {
-  color: rgb(155, 154, 159);
-  background: linear-gradient(to right, rgb(94, 206, 129), rgb(64, 186, 200));
-  height: 40px;
-  width: 40vw;
-  margin-left: 25vw;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 20px;
-}
+
 /*
 
 @media (max-width: 375px) {
