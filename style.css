@@ -620,7 +620,7 @@ html , body {
 /* Existing CSS styles here */
 
 /* Media query for screens up to 375px */
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 375px) {
   .navbar {
     flex-direction: row;
     align-items: center;
@@ -679,14 +679,16 @@ html , body {
 
   }
   .mob{
+    margin-top: -10vh;
     height: 50vh;
     position: relative;
     background-repeat: no-repeat;
     background-size: contain;
-    background-position-x: 2vh;
-    background-position-y: -5vh;
+    background-position-x: vh;
+    background-position-y: 0vh;
     width: 100vw;
     scale: 1.5;
+    background-position: center;
   }
   .card {
     width: 100%;
